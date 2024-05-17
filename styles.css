@@ -27,13 +27,14 @@ label {
     position: relative;
 }
 
-.password-wrapper input[type="password"] {
-    width: calc(100% - 30px);
-    padding: 10px;
+.password-wrapper input {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* Padding to accommodate the icon */
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    resize: none;
 }
 
 .password-wrapper i {
